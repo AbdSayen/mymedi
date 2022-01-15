@@ -1,0 +1,815 @@
+* {
+  font-family: "FiraSans";
+  color: #103178;
+  text-decoration: none !important;
+}
+
+.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.info-list li {
+  font-size: 0.8rem;
+}
+
+.btn {
+  background-color: orange;
+  margin: 0 0 1rem 1rem !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0.1rem;
+  color: white;
+  border-radius: 35px;
+  width: 60%;
+}
+
+.btn:hover {
+  background-color: #103178;
+}
+
+.info-text {
+  color: #415188;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url(../fonts/FiraSans-Regular.ttf);
+}
+
+@media only screen and (max-width: 1024px) {
+  .display {
+    display: block;
+  }
+  .open-menu {
+    display: block !important;
+  }
+}
+
+.covid-info {
+  background-color: #103178;
+  color: #ffc800;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.controls {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.controls .open-menu {
+  display: none;
+}
+
+.controls p {
+  margin-right: 1rem;
+}
+
+.controls .seacth {
+  background-color: #F0F2F5;
+  padding: 13px;
+  border-radius: 10%;
+  border: none;
+  width: 21rem;
+}
+
+.controls .icons i {
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+  color: orange;
+  position: relative;
+  cursor: pointer;
+}
+
+.controls .icons i .circle {
+  width: 1rem;
+  height: 1rem;
+  background-color: #103178;
+  border-radius: 100%;
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+  color: white;
+}
+
+.pages {
+  border: #E7EAF1 1px solid;
+  width: 100vw;
+}
+
+.pages ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pages ul li {
+  color: #103178 !important;
+  list-style: none;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pages ul li a {
+  color: #103178 !important;
+}
+
+.pages ul li:hover {
+  color: orange;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100vw;
+  }
+  .controls {
+    display: none;
+  }
+  .pages {
+    display: none;
+  }
+}
+
+.products-prop {
+  width: 15.5rem;
+}
+
+.products-prop h6 {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.products-prop .part {
+  border: #E7EAF1 1px solid;
+  padding: 3rem 1rem;
+}
+
+.products-prop .part h5 {
+  margin: 1.5rem 0;
+}
+
+.products-prop .part li {
+  list-style: none;
+}
+
+.products-prop .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products-prop .color div {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 100%;
+  margin: 0 0.3rem;
+}
+
+.products-prop .color .red {
+  background-color: red;
+}
+
+.products-prop .color .blue {
+  background-color: blue;
+}
+
+.products-prop .color .white {
+  background-color: #E7EAF1;
+}
+
+.products-prop .color .green {
+  background-color: green;
+}
+
+.products-prop .color .orange {
+  background-color: orange;
+}
+
+.products-prop .color .gray {
+  background-color: gray;
+}
+
+.products-prop .color .black {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .products-prop {
+    display: none;
+  }
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 64rem;
+}
+
+.cards .card {
+  margin: 1rem 0.3rem;
+  position: relative;
+  border: #E7EAF1 1px solid;
+}
+
+.cards .card .sale {
+  background-color: orange;
+  border-radius: 2rem;
+  padding: 0 0.8rem;
+  position: absolute;
+  color: white;
+  top: 0.3rem;
+  left: 0.3rem;
+}
+
+.cards .card .fa-microscope {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+  background-color: #E7EAF1;
+  border-radius: 100%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.cards .card .fa-microscope:hover {
+  background-color: #103178;
+  color: white;
+}
+
+.cards .card .price {
+  margin: 0 0 1rem 1rem;
+}
+
+.cards .card .description {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards .card .btn {
+  background-color: orange;
+  margin: 0 0 1rem 1rem !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0.1rem;
+  color: white;
+  border-radius: 35px;
+  width: 60%;
+}
+
+.cards .card .btn:hover {
+  background-color: #103178;
+}
+
+.cards .card img {
+  width: 11rem;
+  margin: 0 auto;
+}
+
+.cards .card ul {
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+}
+
+.cards .card ul li {
+  list-style: none;
+}
+
+.cards .card .icons {
+  margin: 0 0 1rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card .icons i {
+  background-color: #E7EAF1;
+  border-radius: 100%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.cards .card .icons i:hover {
+  background-color: #103178;
+  color: white;
+}
+
+.swipe {
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.swipe div {
+  text-align: center;
+  margin: 0 1rem;
+  color: #103178;
+  background-color: #E7EAF1;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.swipe div:hover {
+  color: white !important;
+  background-color: #103178;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    width: 95%;
+  }
+}
+
+footer .dop-info {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .full-info {
+  margin-top: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .full-info ul {
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+footer .full-info ul li {
+  list-style: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+footer .full-info ul li .icons {
+  margin-top: 1rem;
+}
+
+footer .full-info ul li .icons i {
+  margin-right: 1rem;
+}
+
+footer .full-info ul li:hover {
+  color: orange;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer .dop-info {
+    display: block;
+    text-align: center;
+  }
+  footer .full-info {
+    display: block;
+    text-align: center;
+  }
+  footer .full-info .need-help {
+    margin-bottom: 5rem;
+  }
+  footer .full-info .information {
+    display: none;
+  }
+  footer .full-info .account {
+    display: none;
+  }
+  footer .full-info .store {
+    display: none;
+  }
+}
+
+.contacts {
+  margin: 2.5rem 0;
+  width: 100%;
+}
+
+.contacts .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts .map {
+  width: 65%;
+}
+
+.contacts .btn {
+  margin: 0 0 1rem 1rem !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0.1rem;
+  color: #103178;
+  border-radius: 35px;
+  border: 0.1px #6b6e75 solid;
+}
+
+.contacts .btn:hover {
+  background-color: #103178;
+  color: white;
+}
+
+@media only screen and (max-width: 850px) {
+  .contacts .contacts .map {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .contacts .contacts .map {
+    display: none !important;
+  }
+}
+
+.question {
+  margin-top: 7rem;
+}
+
+.question .btn {
+  background-color: orange;
+  margin: 0 0 1rem 1rem !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0.1rem;
+  color: white;
+  border-radius: 35px;
+  margin: 0 0 1rem 0 !important;
+  padding: 0.5rem 2.5rem;
+}
+
+.question .btn:hover {
+  background-color: #103178;
+  color: white;
+}
+
+.question input {
+  width: 100%;
+  background-color: #f0f2f5;
+  border: none;
+  border-radius: 10rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+.follow {
+  margin: 7rem 0 5rem 0;
+}
+
+.follow .container h1 {
+  text-align: center;
+}
+
+.follow .container .pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.follow .container .pictures img {
+  width: calc(100% / 6 - 1%);
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.follow .container .pictures img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.collections {
+  margin-top: 4rem;
+}
+
+.collections .container .cards {
+  max-width: 100rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collections .container .cards .column {
+  max-width: 80rem;
+  width: 100rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.collections .container .cards .column .card {
+  height: 16rem !important;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.collections .container .cards .column .card img {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.collections .container .cards .column .card img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.collections .container .cards .column .card p {
+  margin-top: 1.5rem;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.collections .container .cards .column .card p:hover {
+  color: orange;
+}
+
+.bg {
+  background-image: url(./../img/home.png);
+  background-position: center;
+  background-size: cover;
+  height: 43rem;
+}
+
+.hotProducts {
+  margin-top: 3rem;
+}
+
+.hotProducts .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 150rem;
+}
+
+.hotProducts .container .cards .card {
+  position: relative;
+  width: calc(100% / 3 - 2%);
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 26rem;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.hotProducts .container .cards .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.hotProducts .container .cards .card .info {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.hotProducts .container .cards .card .info .btn {
+  background-color: #103178;
+  width: 7rem;
+  margin: 0 !important;
+  margin-top: 4rem !important;
+  bottom: 1rem;
+  padding: 0.3rem;
+}
+
+.hotProducts .container .cards .card .info .btn:hover {
+  background-color: orange;
+}
+
+.hotProducts .container .cards .card .info .new {
+  color: white;
+  background-color: green;
+  padding: 0.1rem;
+  border-radius: 3rem;
+  border: none;
+  width: 4rem;
+  text-align: center;
+}
+
+.hotProducts .container .cards .c1 {
+  background-image: url(./../img/hotProducts/home1-banner-1_540x.jpg);
+}
+
+.hotProducts .container .cards .c2 {
+  background-image: url(./../img/hotProducts/home1-banner-2_540x.jpg);
+}
+
+.hotProducts .container .cards .c3 {
+  background-image: url(./../img/hotProducts/home1-banner-3_540x.jpg);
+}
+
+@media only screen and (max-width: 620px) {
+  .hotProducts .cards {
+    display: block !important;
+  }
+  .hotProducts .cards .card {
+    width: 70% !important;
+    margin: 2rem auto;
+  }
+}
+
+.latest {
+  margin-top: 5rem;
+}
+
+.latest .container h1 {
+  text-align: center;
+}
+
+.latest .container .cards {
+  max-width: 80rem;
+  margin: 0 !important;
+}
+
+.latest .container .cards .card {
+  width: 15rem;
+}
+
+.bestDeals {
+  margin-top: 5rem;
+}
+
+.bestDeals .container h1 {
+  text-align: center;
+}
+
+.bestDeals .container .cards {
+  border: orange 3px solid;
+  max-width: 80rem;
+  margin: 0 !important;
+}
+
+.bestDeals .container .cards .card {
+  width: 15rem;
+}
+
+.bestDeals .container .cards .card .sale {
+  padding: 1rem !important;
+  background-color: #103178;
+}
+
+.top5 {
+  margin-top: 5rem;
+}
+
+.top5 .container h1 {
+  text-align: center;
+}
+
+.top5 .container h4 {
+  margin: 2rem 3rem;
+  text-align: center;
+}
+
+.top5 .container .cards {
+  max-width: 80rem;
+  margin: 0 !important;
+}
+
+.top5 .container .cards .card {
+  width: 15rem;
+}
+
+.second .card {
+  width: calc(100% / 2 - 2%) !important;
+  background-size: 40rem !important;
+}
+
+.fuatured {
+  margin-top: 5rem;
+}
+
+.fuatured .container h1 {
+  text-align: center;
+}
+
+.fuatured .container h4 {
+  margin: 2rem 3rem;
+  text-align: center;
+}
+
+.fuatured .container .cards {
+  max-width: 80rem;
+  margin: 0 !important;
+}
+
+.fuatured .container .cards .card {
+  width: 15rem;
+}
+
+.revievs {
+  margin: 5rem 0;
+  background-image: url(./../img/home-1bg-latest-reviews_d762ea48-0d5e-4d68-8a68-3aad28977fad_1296x.png);
+  background-size: cover;
+  height: 30rem;
+}
+
+.revievs .container h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.revievs .container .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.revievs .container .comments .comment {
+  padding: 2rem;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.revievs .container .comments .comment:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.revievs .container .comments .comment span {
+  padding-top: 5rem;
+  color: orange;
+}
+
+.revievs .container .comments .comment .stars .y {
+  color: orange !important;
+}
+
+.revievs .container .comments .comment .stars .n {
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */

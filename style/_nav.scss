@@ -1,0 +1,84 @@
+.covid-info {
+    background-color: #103178;
+    color: #ffc800;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.controls {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .open-menu {
+        display: none;
+    }
+    p {
+        margin-right: 1rem;
+    }
+    .seacth {
+        background-color: #F0F2F5;
+        padding: 13px;
+        border-radius: 10%;
+        border: none;
+        width: 21rem;
+    }
+    .icons {
+        i {
+            margin: 0 0.5rem;
+            font-size: 1.4rem;
+            color: orange;
+            position: relative;
+            cursor: pointer;
+            .circle {
+                width: 1rem;
+                height: 1rem;
+                background-color: #103178;
+                border-radius: 100%;
+                position: absolute;
+                right: -0.5rem;
+                top: -0.5rem;
+                color: white;
+            }
+        }
+    }
+}
+
+.pages {
+    border: #E7EAF1 1px solid;
+    width: 100vw;
+    ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            a {
+                color: #103178 !important;
+            }
+            color: #103178 !important;
+            list-style: none;
+            margin-right: 3rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            cursor: pointer;
+            &:hover {
+                color: orange;
+            }
+            transition: 0.3s;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100vw;
+    }
+    .controls {
+        display: none;
+    }
+    .pages {
+        display: none;
+    }
+}

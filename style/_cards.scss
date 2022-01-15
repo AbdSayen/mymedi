@@ -1,0 +1,113 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 64rem;
+    .card {
+        margin: 1rem 0.3rem;
+        position: relative;
+        border: #E7EAF1 1px solid;
+        .sale {
+            background-color: orange;
+            border-radius: 2rem;
+            padding: 0 0.8rem;
+            position: absolute;
+            color: white;
+            top: 0.3rem;
+            left: 0.3rem;
+        }
+        .fa-microscope {
+            position: absolute;
+            right: 0.3rem;
+            top: 0.3rem;
+            background-color: #E7EAF1;
+            border-radius: 100%;
+            padding: 0.5rem;
+            margin-right: 1rem;
+            transition: 0.4s;
+            &:hover {
+                background-color: #103178;
+                color: white;
+            }
+        }
+        .price {
+            margin: 0 0 1rem 1rem;
+        }
+        .description {
+            margin: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .btn {
+            background-color: orange;
+            margin: 0 0 1rem 1rem !important;
+            transition: 0.4s;
+            margin: 0.1rem;
+            color: white;
+            border-radius: 35px;
+            &:hover {
+                background-color: #103178;
+            }
+            width: 60%;
+        }
+        img {
+            width: 11rem;
+            margin: 0 auto;
+        }
+        ul {
+            margin: 0 0 1rem 1rem;
+            padding: 0;
+            li {
+                list-style: none;
+            }
+        }
+        .icons {
+            margin: 0 0 1rem 1rem;
+            display: flex;
+            i {
+                background-color: #E7EAF1;
+                border-radius: 100%;
+                padding: 0.5rem;
+                margin-right: 1rem;
+                transition: 0.4s;
+                &:hover {
+                    background-color: #103178;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.swipe {
+    margin: 2rem auto;
+    display: flex;
+    div {
+        text-align: center;
+        margin: 0 1rem;
+        color: #103178;
+        background-color: #E7EAF1;
+        border-radius: 100%;
+        width: 2rem;
+        height: 2rem;
+        padding: 0.2rem;
+        &:hover {
+            color: white !important;
+            background-color: #103178;
+        }
+        transition: 0.2s;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card {
+        width: 95%;
+    }
+}

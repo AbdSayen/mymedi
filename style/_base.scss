@@ -1,0 +1,47 @@
+* {
+    font-family: "FiraSans";
+    color: #103178;
+    text-decoration: none !important;
+}
+
+.display {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.info-list {
+    li {
+        font-size: 0.8rem;
+    }
+}
+
+.btn {
+    background-color: orange;
+    margin: 0 0 1rem 1rem !important;
+    transition: 0.4s;
+    margin: 0.1rem;
+    color: white;
+    border-radius: 35px;
+    &:hover {
+        background-color: #103178;
+    }
+    width: 60%;
+}
+
+.info-text {
+    color: rgb(65, 81, 136);
+}
+
+@font-face {
+    font-family: "FiraSans";
+    src: url(../fonts/FiraSans-Regular.ttf);
+}
+
+@media only screen and (max-width: 1024px) {
+    .display {
+        display: block;
+    }
+    .open-menu {
+        display: block !important;
+    }
+}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home – Medi Fastest Shopify Theme Demo</title>
+    <link rel="stylesheet" href="./../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <div class="covid-info">Due to the <strong style="color: #ffc800;">COVID 19</strong> epidemic, orders may be processed with a slight delay</div>
+        <div class="container">
+            <div class="onen-menu" style="display: none;"><i class="fas fa-bars"></i></div>
+
+            <section class="controls">
+                <svg class="svg" width="213" height="47" viewBox="0 0 213 47" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M76.1758 22.6891L83.1207 33.2701L90.0656 22.6891L91.6291 35.6335H98.1376L93.9562 8.90839L83.1207 24.3981L72.2488 8.90839L68.1764 35.6335H74.6122L76.1758 22.6891Z" fill="#103178"></path><path d="M116.268 10.181L111.287 19.7439L106.342 10.181H99.2875L108.16 25.3071V35.6335H114.45V25.2707L123.395 10.181H116.268Z" fill="#103178"></path><path d="M132.563 22.6891L139.508 33.2701L146.453 22.6891L148.017 35.6335H154.525L150.344 8.90839L139.508 24.3981L128.636 8.90839L124.564 35.6335H131L132.563 22.6891Z" fill="#103178"></path><path d="M162.438 35.6335H175.274V30.5794H162.438V35.6335ZM162.438 15.2352H175.274V10.181H162.438V15.2352ZM162.438 24.7617H174.546V19.7439H162.438V24.7617ZM158.402 10.181V35.6335H164.293V10.181H158.402Z" fill="#103178"></path><path d="M180.311 10.181V35.6335H186.674V10.181H180.311ZM189.365 35.6335C191.449 35.6335 193.328 35.3426 195.001 34.7609C196.673 34.1549 198.103 33.3064 199.291 32.2156C200.503 31.1006 201.424 29.7673 202.055 28.2159C202.685 26.6403 203 24.8707 203 22.9073C203 20.9438 202.685 19.1864 202.055 17.635C201.424 16.0593 200.503 14.7261 199.291 13.6353C198.103 12.5202 196.673 11.6718 195.001 11.09C193.328 10.484 191.449 10.181 189.365 10.181H184.347V15.6715H189.183C190.153 15.6715 191.086 15.7927 191.983 16.0351C192.88 16.2775 193.667 16.6775 194.346 17.235C195.049 17.7925 195.607 18.544 196.019 19.4894C196.431 20.4105 196.637 21.5498 196.637 22.9073C196.637 24.2647 196.431 25.4162 196.019 26.3615C195.607 27.2827 195.049 28.022 194.346 28.5795C193.667 29.1371 192.88 29.537 191.983 29.7794C191.086 30.0219 190.153 30.1431 189.183 30.1431H184.347V35.6335H189.365Z" fill="#103178"></path><path d="M207 10.181V35.6335H212.89V10.181H207Z" fill="#103178"></path><path d="M4.8943 24.6045L4.05436 23.7646C2.77253 22.4878 1.75473 20.971 1.05908 19.3008C0.36344 17.6306 0.00357172 15.8398 2.64876e-05 14.0305C-0.00713342 10.3766 1.43752 6.86947 4.01619 4.28068C6.59485 1.69189 10.0963 0.233505 13.7502 0.226345C17.4042 0.219185 20.9113 1.66384 23.5001 4.2425L26.758 7.55133L30.0159 4.2425C31.2809 2.92046 32.797 1.86429 34.4755 1.13593C36.154 0.407572 37.961 0.02168 39.7906 0.00088755C41.6202 -0.0199049 43.4355 0.32482 45.1301 1.01485C46.8248 1.70488 48.3645 2.72632 49.6592 4.01927C50.9538 5.31222 51.9773 6.85065 52.6695 8.54436C53.3618 10.2381 53.7089 12.0529 53.6905 13.8825C53.6721 15.7122 53.2885 17.5197 52.5624 19.1991C51.8362 20.8786 50.782 22.3961 49.4617 23.6628L48.6217 24.5027L26.758 46.4173L11.6647 31.324L4.8943 24.6045Z" fill="url(#paint0_linear)"></path><path d="M30.0159 4.2425L26.758 7.55133V46.4173L48.6217 24.5027L49.4616 23.6628C50.782 22.3961 51.8362 20.8786 52.5624 19.1991C53.2885 17.5197 53.6721 15.7122 53.6905 13.8825C53.7089 12.0529 53.3617 10.2381 52.6695 8.54436C51.9773 6.85065 50.9538 5.31222 49.6591 4.01927C48.3645 2.72632 46.8247 1.70488 45.1301 1.01485C43.4355 0.32482 41.6202 -0.0199049 39.7906 0.00088755C37.961 0.02168 36.154 0.407572 34.4755 1.13593C32.797 1.86429 31.2808 2.92046 30.0159 4.2425Z" fill="url(#paint1_linear)"></path><path d="M17.3043 22.161L36.2116 22.0665" stroke="white" stroke-width="5.81772" stroke-miterlimit="10"></path><path d="M26.758 13.3327L26.758 30.8295" stroke="white" stroke-width="5.81772" stroke-miterlimit="10"></path> <defs><linearGradient id="paint0_linear" x1="26.8456" y1="0" x2="26.8456" y2="46.4173" gradientUnits="userSpaceOnUse"> <stop stop-color="#0F3484"></stop> <stop offset="1" stop-color="#4B6CB3"></stop> </linearGradient><linearGradient id="paint1_linear" x1="40.2246" y1="0" x2="40.2246" y2="46.4173" gradientUnits="userSpaceOnUse"> <stop stop-color="#4B6DB6"></stop> <stop offset="1" stop-color="#0F3484"></stop> </linearGradient> </defs> </svg>
+                <div style="display: flex; margin-bottom: 1rem;">
+                    <p class="need-help" style="padding-top: 1rem;">Need help? 0020 500</p>
+                    <input class="seacth" name="q" type="text" placeholder="Search for products..." autocomplete="off">
+                </div>
+                <div class="icons">
+                    <i class="fas fa-user-friends"></i>
+                    <i class="fas fa-heart">
+                            <div class="circle"></div>
+                        </i>
+                    <i class="fas fa-thumbtack">
+                            <div class="circle"></div>
+                        </i>
+                    <i class="fas fa-shopping-basket">
+                            <div class="circle"></div>
+                        </i>
+                </div>
+            </section>
+        </div>
+        <div class="pages">
+            <div class="container">
+                <ul>
+                    <li><i class="fas fa-bars" style="margin-right: 0.3rem;"></i>Pages</li>
+                    <li><a href="./../index.html">Products</a></li>
+                    <li>Home Medical Supplies</li>
+                    <li>Homepages</li>
+                    <li><a href="./collectios.html">Collections</a></li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg"></section>
+    <section class="hotProducts">
+        <div class="container">
+            <div class="cards">
+                <div class="card c1">
+                    <div class="info">
+                        <div class="new" style="position: absolute; margin-top: 7rem;">NEW</div>
+                        <h3>Vaprorizer <br> Charger <br> X200 5KW</h3>
+                        <div class="btn">More</div>
+                    </div>
+                </div>
+                <div class="card c2">
+                    <div class="info">
+                        <h3>Digital <br> Thermometer <br> X30-Pro
+                        </h3>
+                        <h1 style="color: orange; position: absolute;">-10%</h1>
+                        <div class="btn">Shop now</div>
+                    </div>
+                </div>
+                <div class="card c3">
+                    <div class="info">
+                        <h3 style="color: white !important;">Vaprorizer <br> Charger <br> X200 5KW</h3>
+                        <h1 style="color: yellow; position: absolute;">$119.00</h1>
+                        <div class="btn">Buy now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest">
+        <div class="container">
+            <h1>Latest Products</h1>
+            <section class="cards">
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">SALE</div>
+                    <img src="./../img/products/mask.png" alt="">
+                    <p class="description">1-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">SALE</div>
+                    <img src="./../img/products/mask2.png" alt="">
+                    <p class="description">2-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">SALE</div>
+                    <img src="./../img/products/products-10_374a7af8-c37d-4519-bca4-5460607c1b41_360x.png" alt="">
+                    <p class="description">3-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">SALE</div>
+                    <img src="./../img/products/products-15_360x.png" alt="">
+                    <p class="description">3-layer mask with an elastic <br> band (best deals)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">SALE</div>
+                    <img src="./../img/products/products-19_7006b792-f198-4e7a-89e8-4d388557134b_360x.png" alt="">
+                    <p class="description">4-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+            </section>
+    </section>
+
+    <section class="bestDeals">
+        <div class="container">
+            <h1>Best Deals of the Week!</h1>
+            <section class="cards">
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">8%</div>
+                    <img src="./../img/products/products-5_360x.png" alt="">
+                    <p class="description">1-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">17%</div>
+                    <img src="./../img/products/products-15_360x.png" alt="">
+                    <p class="description">2-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">SALE</div>
+                    <img src="./../img/products/products-22_53ce6fe4-046b-4043-9764-ee9d09d4b6e2_360x.png" alt="">
+                    <p class="description">3-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">8%</div>
+                    <img src="./../img/products/products-6_360x.png" alt="">
+                    <p class="description">3-layer mask with an elastic <br> band (best deals)</p>
+                    <span class="price">$20.00</span>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-microscope"></i>
+                    <div class="sale">3%</div>
+                    <img src="./../img/products/products-26_0fdf7326-70db-4239-b8f5-20751ee1860f_360x.png" alt="">
+                    <p class="description">4-layer mask with an elastic <br> band (1 piece)</p>
+                    <span class="price">$20.00</span>
+                </div>
+        </div>
+        </div>
+        </section>
+
+        <section class="top5">
+            <div class="container">
+                <h1>Top 5 Bestsellers in:</h1>
+                <div style="display: flex; justify-content: space-between; max-width: 45rem; margin: auto; flex-wrap: wrap;">
+                    <h4>Blood pressure</h4>
+                    <h4>Face mask</h4>
+                    <h4>Stomatology</h4>
+                </div>
+                <section class="cards">
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-26_0fdf7326-70db-4239-b8f5-20751ee1860f_360x.png" alt="">
+                        <p class="description">1-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-15_360x.png" alt="">
+                        <p class="description">2-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-1_360x.png" alt="">
+                        <p class="description">3-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/mask2.png" alt="">
+                        <p class="description">3-layer mask with an elastic <br> band (best deals)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-10_374a7af8-c37d-4519-bca4-5460607c1b41_360x.png" alt="">
+                        <p class="description">4-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+                </section>
+        </section>
+
+        <div class="second">
+            <section class="hotProducts">
+                <div class="container">
+                    <div class="cards">
+                        <div class="card c1">
+                            <div class="info">
+                                <div class="new" style="position: absolute; margin-top: 7rem;">NEW</div>
+                                <h3>Vaprorizer <br> Charger <br> X200 5KW</h3>
+                                <div class="btn">More</div>
+                            </div>
+                        </div>
+                        <div class="card c2">
+                            <div class="info">
+                                <h3>Digital <br> Thermometer <br> X30-Pro
+                                </h3>
+                                <h1 style="color: orange; position: absolute;">-10%</h1>
+                                <div class="btn">Shop now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="fuatured">
+            <div class="container">
+                <h1>Fuatured Products</h1>
+                <section class="cards">
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/mask.png" alt="">
+                        <p class="description">1-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/mask2.png" alt="">
+                        <p class="description">2-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-10_374a7af8-c37d-4519-bca4-5460607c1b41_360x.png" alt="">
+                        <p class="description">3-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-15_360x.png" alt="">
+                        <p class="description">3-layer mask with an elastic <br> band (best deals)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-19_7006b792-f198-4e7a-89e8-4d388557134b_360x.png" alt="">
+                        <p class="description">4-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-26_0fdf7326-70db-4239-b8f5-20751ee1860f_360x.png" alt="">
+                        <p class="description">1-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-15_360x.png" alt="">
+                        <p class="description">2-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-1_360x.png" alt="">
+                        <p class="description">3-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/mask2.png" alt="">
+                        <p class="description">3-layer mask with an elastic <br> band (best deals)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-microscope"></i>
+                        <div class="sale">SALE</div>
+                        <img src="./../img/products/products-10_374a7af8-c37d-4519-bca4-5460607c1b41_360x.png" alt="">
+                        <p class="description">4-layer mask with an elastic <br> band (1 piece)</p>
+                        <span class="price">$20.00</span>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="revievs">
+            <div class="container">
+                <h1>Latest revievs</h1>
+                <div class="comments">
+                    <div class="comment">
+                        <h6>Everything is perfect. I would recommend!</h6>
+                        <span>Mark J.</span>
+                        <div class="stars">
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star n"></i>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <h6>I ordered on Friday evening and on Monday at <br> 12:30 the package was with me. I have never <br> encountered such a fast order processing.</h6>
+                        <span>Mark J.</span>
+                        <div class="stars">
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star n"></i>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <h6>There was a small mistake in the order. In return, I <br> got the correct order and I could keep the wrong <br> one for myself.</h6>
+                        <span>Mark J.</span>
+                        <div class="stars">
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star y"></i>
+                            <i class="fas fa-star n"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="follow">
+            <div class="container">
+                <h1>follow @MYMEDY on instagram</h1>
+                <div class="pictures">
+                    <img src="./../img/follow/home1-instagram-1_280x.png" alt="">
+                    <img src="./../img/follow/home1-instagram-2_280x.png" alt="">
+                    <img src="./../img/follow/home1-instagram-3_280x.png" alt="">
+                    <img src="./../img/follow/home1-instagram-4_280x.png" alt="">
+                    <img src="./../img/follow/home1-instagram-5_280x.png" alt="">
+                    <img src="./../img/follow/home1-instagram-6_280x.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div style="border: #E7EAF1 1px solid;">
+                <div class="container">
+                    <div class="dop-info">
+                        <div><i class="fas fa-wallet"></i> 100% Money back</div>
+                        <div><i class="fas fa-box"></i> Non-contact shipping</div>
+                        <div><i class="fas fa-truck-moving"></i> Free delivery for order over $200</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="full-info">
+                    <div class="information">
+                        <h5>Information</h5>
+                        <ul>
+                            <li>Delivery information</li>
+                            <li>Privacy Policy</li>
+                            <li>Sales</li>
+                            <li>Terms & Conditions</li>
+                        </ul>
+                    </div>
+
+                    <div class="account">
+                        <h5>Account</h5>
+                        <ul>
+                            <li>My account</li>
+                            <li>My orders</li>
+                            <li>Returns</li>
+                            <li>Shipping</li>
+                            <li>Wishlist</li>
+                        </ul>
+                    </div>
+
+                    <div class="store">
+                        <h5>Store</h5>
+                        <ul>
+                            <li>Affiliate</li>
+                            <li>Bestsellers</li>
+                            <li>Discount</li>
+                            <li>Latest products</li>
+                            <li>Sale</li>
+                        </ul>
+                    </div>
+
+                    <div class="need-help">
+                        <h5>Need help</h5>
+                        <ul>
+                            <li>
+                                <h2>0020 500 - MYMEDI - 000</h2>
+                            </li>
+                            <li>
+                                <div class="info-text">Monday - Friday: 9:00 - 20:00</div>
+                            </li>
+                            <li>
+                                <div class="info-text">Saturday: 11:00 - 15:00</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="our-store">
+                        <h5>Our store</h5>
+                        <ul>
+                            <li>1487 Rocky Horse Carrefour <br> Arlington, TX 16819</li>
+                            <div class="icons">
+                                <i class="fas fa-user-friends"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-thumbtack"></i>
+                                <i class="fas fa-shopping-basket"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+</body>
+
+</html>

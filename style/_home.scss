@@ -1,0 +1,193 @@
+.bg {
+    background-image: url(./../img/home.png);
+    background-position: center;
+    background-size: cover;
+    height: 43rem;
+}
+
+.hotProducts {
+    margin-top: 3rem;
+    .container {
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            max-width: 150rem;
+            .card {
+                position: relative;
+                width: calc(100% / 3 - 2%);
+                height: 20rem;
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: 26rem;
+                transition: 0.6s;
+                &:hover {
+                    transform: scale(1.05);
+                }
+                .info {
+                    position: absolute;
+                    top: 2rem;
+                    left: 2rem;
+                    .btn {
+                        background-color: #103178;
+                        width: 7rem;
+                        margin: 0 !important;
+                        margin-top: 4rem !important;
+                        bottom: 1rem;
+                        padding: 0.3rem;
+                        &:hover {
+                            background-color: orange;
+                        }
+                    }
+                    .new {
+                        color: white;
+                        background-color: green;
+                        padding: 0.1rem;
+                        border-radius: 3rem;
+                        border: none;
+                        width: 4rem;
+                        text-align: center;
+                    }
+                }
+            }
+            .c1 {
+                background-image: url(./../img/hotProducts/home1-banner-1_540x.jpg);
+            }
+            .c2 {
+                background-image: url(./../img/hotProducts/home1-banner-2_540x.jpg);
+            }
+            .c3 {
+                background-image: url(./../img/hotProducts/home1-banner-3_540x.jpg);
+            }
+        }
+    }
+    @media only screen and (max-width: 620px) {
+        .cards {
+            display: block !important;
+            .card {
+                width: 70% !important;
+                margin: 2rem auto;
+            }
+        }
+    }
+}
+
+.latest {
+    margin-top: 5rem;
+    .container {
+        h1 {
+            text-align: center;
+        }
+        .cards {
+            max-width: 80rem;
+            margin: 0 !important;
+            .card {
+                width: 15rem;
+            }
+        }
+    }
+}
+
+.bestDeals {
+    margin-top: 5rem;
+    .container {
+        h1 {
+            text-align: center;
+        }
+        .cards {
+            border: orange 3px solid;
+            max-width: 80rem;
+            margin: 0 !important;
+            .card {
+                width: 15rem;
+                .sale {
+                    padding: 1rem !important;
+                    background-color: #103178;
+                }
+            }
+        }
+    }
+}
+
+.top5 {
+    margin-top: 5rem;
+    .container {
+        h1 {
+            text-align: center;
+        }
+        h4 {
+            margin: 2rem 3rem;
+            text-align: center;
+        }
+        .cards {
+            max-width: 80rem;
+            margin: 0 !important;
+            .card {
+                width: 15rem;
+            }
+        }
+    }
+}
+
+.second {
+    .card {
+        width: calc(100% / 2 - 2%) !important;
+        background-size: 40rem !important;
+    }
+}
+
+.fuatured {
+    margin-top: 5rem;
+    .container {
+        h1 {
+            text-align: center;
+        }
+        h4 {
+            margin: 2rem 3rem;
+            text-align: center;
+        }
+        .cards {
+            max-width: 80rem;
+            margin: 0 !important;
+            .card {
+                width: 15rem;
+            }
+        }
+    }
+}
+
+.revievs {
+    margin: 5rem 0;
+    background-image: url(./../img/home-1bg-latest-reviews_d762ea48-0d5e-4d68-8a68-3aad28977fad_1296x.png);
+    background-size: cover;
+    height: 30rem;
+    .container {
+        h1 {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .comments {
+            display: flex;
+            justify-content: space-between;
+            .comment {
+                padding: 2rem;
+                background-color: white;
+                transition: 0.5s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                span {
+                    padding-top: 5rem;
+                    color: orange;
+                }
+                .stars {
+                    .y {
+                        color: orange !important;
+                    }
+                    .n {
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+}
