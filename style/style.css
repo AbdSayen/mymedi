@@ -595,6 +595,33 @@ footer .full-info ul li:hover {
   background-position: center;
   background-size: cover;
   height: 43rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg h1 {
+  font-size: 4.5rem !important;
+}
+
+.bg .btn {
+  color: white !important;
+  background-color: orange;
+  width: 10rem;
+  border-radius: 15px;
+}
+
+.bg .btn:hover {
+  background-color: #103178;
+}
+
+@media only screen and (max-width: 620px) {
+  .bg {
+    text-align: center;
+  }
+  .bg h1 {
+    font-size: 2.5rem !important;
+  }
 }
 
 .hotProducts {
@@ -771,7 +798,6 @@ footer .full-info ul li:hover {
   margin: 5rem 0;
   background-image: url(./../img/home-1bg-latest-reviews_d762ea48-0d5e-4d68-8a68-3aad28977fad_1296x.png);
   background-size: cover;
-  height: 30rem;
 }
 
 .revievs .container h1 {
@@ -783,6 +809,8 @@ footer .full-info ul li:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -811,5 +839,94 @@ footer .full-info ul li:hover {
 
 .revievs .container .comments .comment .stars .n {
   color: gray;
+}
+
+@media only screen and (max-width: 620px) {
+  .revievs .comments {
+    display: block;
+  }
+  .revievs .comments .comment {
+    width: 70%;
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .cards .card {
+    margin: 2rem auto;
+  }
+}
+
+.product .container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.product .container .dop-i {
+  width: 70%;
+  padding: 1rem;
+  border: 0.3px #f0f0f0 solid;
+}
+
+.product .container img {
+  width: 35%;
+}
+
+.product .container .prop {
+  display: block !important;
+}
+
+.product .container .prop .btn {
+  width: 7rem;
+  color: white;
+  background-color: orange;
+  border-radius: 5rem;
+}
+
+.product .container .prop .btn:hover {
+  background-color: blue;
+}
+
+.product .container ul {
+  list-style: none !important;
+  padding: 0;
+}
+
+.product .container .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product .container .color div {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 100%;
+  margin: 0 0.3rem;
+}
+
+.product .container .color .blue {
+  background-color: blue;
+}
+
+.product .container .color .white {
+  background-color: #c4c4c4;
+}
+
+.product .container .color .gray {
+  background-color: gray;
+}
+
+.product .quantity {
+  width: 10rem;
+}
+
+.product .quantity .q {
+  background-color: #E7EAF1;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=style.css.map */

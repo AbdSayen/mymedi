@@ -1,0 +1,57 @@
+.product {
+    .container {
+        .dop-i {
+            width: 70%;
+            padding: 1rem;
+            border: 0.3px #f0f0f0 solid;
+        }
+        img {
+            width: 35%;
+        }
+        .prop {
+            display: block !important;
+            .btn {
+                width: 7rem;
+                color: white;
+                background-color: orange;
+                border-radius: 5rem;
+                &:hover {
+                    background-color: blue;
+                }
+            }
+        }
+        display: flex !important;
+        ul {
+            list-style: none !important;
+            padding: 0;
+        }
+        .color {
+            display: flex;
+            div {
+                width: 1.4rem;
+                height: 1.4rem;
+                border-radius: 100%;
+                margin: 0 0.3rem;
+            }
+            .blue {
+                background-color: blue;
+            }
+            .white {
+                background-color: #c4c4c4;
+            }
+            .gray {
+                background-color: gray;
+            }
+        }
+    }
+    .quantity {
+        width: 10rem;
+        .q {
+            background-color: #E7EAF1;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    }
+}

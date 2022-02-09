@@ -3,6 +3,25 @@
     background-position: center;
     background-size: cover;
     height: 43rem;
+    align-items: center;
+    h1 {
+        font-size: 4.5rem !important;
+    }
+    .btn {
+        color: white !important;
+        background-color: orange;
+        width: 10rem;
+        border-radius: 15px;
+        &:hover {
+            background-color: #103178;
+        }
+    }
+    @media only screen and (max-width: 620px) {
+        text-align: center;
+        h1 {
+            font-size: 2.5rem !important;
+        }
+    }
 }
 
 .hotProducts {
@@ -159,7 +178,6 @@
     margin: 5rem 0;
     background-image: url(./../img/home-1bg-latest-reviews_d762ea48-0d5e-4d68-8a68-3aad28977fad_1296x.png);
     background-size: cover;
-    height: 30rem;
     .container {
         h1 {
             text-align: center;
@@ -167,6 +185,7 @@
         }
         .comments {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             .comment {
                 padding: 2rem;
@@ -188,6 +207,23 @@
                     }
                 }
             }
+        }
+    }
+    @media only screen and (max-width: 620px) {
+        .comments {
+            display: block;
+            .comment {
+                width: 70%;
+                margin: 2rem auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .cards {
+        .card {
+            margin: 2rem auto;
         }
     }
 }
